@@ -64,6 +64,7 @@ p {
   background-color: #FF4C68;
   color: white;
   text-align: left;
+  padding-bottom: 50px;
 }
 
 #title .container-fluid {
