@@ -1,0 +1,177 @@
+/************Element Selector******/
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+/* HEADINGS */
+.big-heading {
+  font-size: 3.5rem;
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/************Class Selector********/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbaritems {
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-";
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+#title {
+  background-color: #FF4C68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* Features Section*/
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding-top: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA */
+#cta {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.bottom-download-button {
+  margin: 2%;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #fff;
+}
+
+.social-button {
+  margin: 1% 1%;
+}
+
+/* MEDIA */
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
